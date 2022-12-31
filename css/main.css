@@ -23,7 +23,7 @@
 .wrapper {
     background-color: aliceblue;
     border: 3px solid red;
-    display: flex;
+    display: table;
     margin: auto;
     /* grid-template-columns: 1fr 1fr 1fr; */
 }
@@ -39,7 +39,7 @@
     width: 25%;
     align-content: left;
     height: 200px;
-    /* display: flex; */
+    display: table-cell;
     border: 3px solid yellow;
 }
 
@@ -54,7 +54,7 @@
     width: 50%;
     align-content: left;
     height: 200px;
-    /* display: flex; */
+    display: table-cell;
     border: 3px solid black;
 }
 
@@ -69,8 +69,26 @@
     width: 25%;
     align-content: left;
     height: 200px;
-    /* display: flex; */
+    display: table-cell;
     border: 3px solid chartreuse;
+}
+
+
+/* responsive */
+
+@media (max-width:600px) {
+    .div_left {
+        display: block;
+        width: 100%;
+    }
+    .div_center {
+        display: block;
+        width: 100%;
+    }
+    .div_right {
+        display: block;
+        width: 100%;
+    }
 }
 
 
@@ -141,6 +159,36 @@ h1 {
 /* left div footer */
 
 .left_div_footer {
+    font-size: 24px;
+    margin: auto;
+    /* width: 100%; */
+    height: 40px;
+    border: 2px solid grey;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+/* center div footer */
+
+.center_div_footer {
+    font-size: 24px;
+    margin: auto;
+    /* width: 100%; */
+    height: 40px;
+    border: 2px solid grey;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+/* right div footer */
+
+.right_div_footer {
     font-size: 24px;
     margin: auto;
     /* width: 100%; */
