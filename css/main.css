@@ -17,7 +17,9 @@
 
 /* menu */
 
-.menu {}
+.menu {
+    background-color: bisque;
+}
 
 
 /* top_nav */
