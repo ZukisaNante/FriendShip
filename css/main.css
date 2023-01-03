@@ -5,8 +5,19 @@
     width: 100%;
     font-family: sans-serif;
 }
+/* main header */
+.main_header{
+    height: 5vh;
+    /* background-color: whitesmoke; */
+}
+/* menu */
+.menu{
 
-
+}
+/* top_nav */
+.top_nav{
+    
+}
 /* main container */
 
 .main_container {
@@ -183,6 +194,7 @@ h1 {
     align-items: center;
     justify-content: center;
     justify-items: center;
+    color: white;
 }
 
 
