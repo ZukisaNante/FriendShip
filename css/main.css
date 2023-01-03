@@ -26,6 +26,7 @@
 
 .top_nav {
     overflow: hidden;
+    background-color: #fff;
 }
 
 
@@ -36,8 +37,8 @@
     display: block;
     color: brown;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none !important;
+    padding: 8px 8px;
+    text-decoration: none;
     font-size: 17px;
 }
 
@@ -67,7 +68,7 @@
 
 /* @media */
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
     .top_nav a:not(:first-child) {
         display: none;
     }
@@ -80,7 +81,7 @@
 
 /* responsive with javascript on icon click*/
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
     .top_nav.responsive {
         position: relative;
     }
