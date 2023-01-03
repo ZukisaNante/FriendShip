@@ -8,6 +8,7 @@
     <title>FriendShip</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -15,10 +16,11 @@
         <!-- START header -->
         <div class="main_header">
             <div class="menu">
-                <div class="top_nav">
+                <div class="top_nav" id="nav_top">
                     <a href="#home" class="active">Home</a>
                     <a href="#about" class="about">About</a>
                     <a href="#contact" class="contact">Contact</a>
+                    <a href="javascript:void(0);" class="icon" onclick="topNav()"><i class="fa fa-bars"></i></a>
                 </div>
             </div>
         </div>
@@ -78,6 +80,9 @@
         </div>
         <!-- END wrapper -->
     </div>
+
+    <!-- javascript links -->
+    <script src="/js/top_nav.js"></script>
 </body>
 
 </html>
