@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    /* display: flex; */
+    margin: auto;
+    width: 100%;
+    font-family: sans-serif;
+    background-image: url('/assets/images/zukisa.jpg');
+}
+
+
+/* welcome container */
+
+.welcome_container {}
