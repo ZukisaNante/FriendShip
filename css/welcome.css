@@ -1,10 +1,16 @@
-* {
-    box-sizing: border-box;
-    /* display: flex; */
-    margin: auto;
-    width: 100%;
-    font-family: sans-serif;
+body {
     background-image: url('/assets/images/zukisa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* responsive image background */
+
+@media only screen and (max-width:400px) {
+    body {
+        background-image: url('/assets/images/Zukisa-Nante.jpg');
+    }
 }
 
 
