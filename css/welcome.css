@@ -1,3 +1,5 @@
+/* parallas bg image */
+
 html,
 body {
     background-image: url('/assets/images/zukisa.jpg');
@@ -8,7 +10,8 @@ body {
     overflow: hidden;
     margin: 0;
     min-height: 100%;
-    background-position: fixed;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 
@@ -17,10 +20,13 @@ body {
 @media only screen and (max-width:400px) {
     body {
         background-image: url('/assets/images/Zukisa-Nante.jpg');
+        background-attachment: scroll;
     }
 }
 
 
 /* welcome container */
 
-.welcome_container {}
+.welcome_container {
+    margin: auto;
+}
