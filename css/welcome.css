@@ -12,6 +12,7 @@ body {
     min-height: 100%;
     background-position: center;
     background-attachment: fixed;
+    margin-top: 20px;
 }
 
 
@@ -29,4 +30,56 @@ body {
 
 .welcome_container {
     margin: auto;
+    align-items: center;
+    background-color: aquamarine;
+    width: 100%;
+}
+
+
+/* btn_proceed */
+
+.btn_proceed {
+    /* background-color: aliceblue; */
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    /* border: 1px solid whitesmoke; */
+    border-radius: 10px;
+    margin: 4px 2px;
+    /* padding: 20px; */
+    color: white;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    /* animation-name: name;
+    animation-duration: 2s; */
+}
+
+
+/* animation */
+
+@keyframes name {
+    from {
+        background-color: brown;
+        opacity: 50%;
+    }
+    to {
+        background-color: aliceblue;
+        opacity: 50%;
+    }
+}
+
+
+/* btn_div */
+
+.btn_div {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    /* background-color: aliceblue */
+    align-items: center;
 }
